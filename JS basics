@@ -1,0 +1,35 @@
+//WELCOME TO JS PROGRAMMING
+
+console.log("Welcome to javascript");
+
+//function call
+message= "wru";
+function great(){
+  message="hru";
+  console.log(message);
+  return message;
+}
+great();
+console.log(message);
+
+//conditionals
+if(100<20){
+  console.log("This is true");
+}
+else{
+  console.log("wrong one");
+}
+
+//looping
+let i=123;
+let rev=0;
+while(i!=0){
+  let rem=i%10;
+  rev=rev*10+rem;
+  i=i/10;
+}
+console.log(rev);
+
+//NaN
+let a='hi';
+console.log(a/2);
